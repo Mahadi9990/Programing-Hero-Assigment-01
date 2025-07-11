@@ -158,3 +158,21 @@ header{
 
 /* webflow area */
 
+#webflow_area{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px;
+    gap:30px
+    
+}
+#webflow_area h1{
+    font-size: 45px;
+}
+#webflow_area p{
+    font-size: 18px;
+    color: #a59d9d;
+}
+#webflow_area img{
+    border-radius: 45px;
+}
