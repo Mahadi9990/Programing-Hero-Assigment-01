@@ -85,3 +85,31 @@ header{
 .action_image_area img{
     border-radius: 45px;
 }
+
+/* productive_user area*/
+
+#productive_user{
+    text-align: center;
+    background-color: #E5E7FF;
+    margin: 100PX;
+    border-radius: 25px;
+    padding: 50px 140px;
+}
+#productive_user h2{
+    font-size: 35px;
+}
+#productive_user .card_area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+#productive_user .card_area .card_item h1{
+    font-size: 75px;
+    color: #4E47FF;
+}
+#productive_user .card_area .card_item p{
+    font-size: 20px;
+    color: #585555;
+}
