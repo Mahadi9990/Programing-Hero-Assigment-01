@@ -16,6 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .btn{
     padding: 12px 35px;
@@ -185,7 +186,7 @@ footer .message_area{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 200px 100px;
+    margin: 100px ;
 }
 footer .message_area h1{
     font-size: 80px;
@@ -211,5 +212,44 @@ footer .message_area .input_aree textarea{
     width: 400px;
 }
 
-/* footer nav area */
+/* footer logo area */
 
+footer .logo_area{
+    text-align: center;
+}
+
+footer .logo_area .logo{
+    font-size: 90px;
+    padding: 30px;
+    font-weight: 700;
+    color:#4E47FF
+}
+footer .logo_area .text{
+    font-size: 90px;
+    color:#a4a4ac;
+    font-size: 15px;
+}
+
+/* footer nav area  */
+nav{
+    margin: 20px auto;
+    width: 400px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #907e7e;
+    padding: 10px;
+     border-radius: 10px;
+
+}
+nav ul li a:hover{
+
+    background-color: #4E47FF;
+    color: #f5eded;
+}
