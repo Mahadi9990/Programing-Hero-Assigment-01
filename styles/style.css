@@ -39,6 +39,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    height: 850px;
 }
 .header_singup_area{
     display: flex;
